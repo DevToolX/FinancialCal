@@ -75,5 +75,7 @@ class FinanceCallApi:
             return jsonify({"error": "No data provided"}), 400
 
 if __name__ == '__main__':
+    #Create an Instance for the class 
     finance_api = FinanceCallApi()
+    #on deployment, want to specify the Port- 5000
     finance_api.app.run(debug=True)

@@ -16,9 +16,6 @@ The car loan calculator computes the monthly payment, total cost, and end date f
 
 The mortgage calculator determines the monthly payment and total cost for a mortgage based on the mortgage rate, mortgage term (in years), and mortgage amount provided.
 
-## Usage
-
-To use the Financial Calculators module, simply import the `FinancialCalculator` class from `fincal.py`:
 
 
 ## API 
